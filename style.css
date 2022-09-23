@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* width: 1000px; */
+    height: 1000px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*NAVIGATION BAR*/
+
+.nav{
+    background-color: #735d78;
+    color: white;
+    padding: 15px;
+    height: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center; /*aligned content in the center of the bar*/
+    justify-content: space-between;
+}
+
+.testing{
+    display: flex;
+
+}
+
+.btn button{
+    background-color: #e8c2ca;
+    color: black;
+    padding: 2px 5px 2px 5px;
+}
+.btn{
+    box-shadow: 5px 5px 5px black; 
+}
+
+.testing a{
+    color: hotpink;
+    text-decoration: none;
+    padding: 15px;
+}
+
+/*BODY CONTENT & APPLY TO ALL*/
+
+.content {
+    height: 800px;
+    width: inherit;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.col-1, .col-2 {
+    width: 600px;
+    margin: 10px;
+}
+
+.col-2{
+    width: 300px;
+    margin: 10px;
+}
+
+h3 {
+    color: white;
+    padding: 10px;
+}
+p{
+    margin: 10px;
+}
+
+
+
+/*USERCARD DETAILS*/
+
+.user-card {
+    border-color: #735d78;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
+.card-header{
+    height: 100px;
+    background-color: #d1b3c4;
+}
+
+.avatar{
+    border-radius: 50%;
+    height: 125px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-color:#735d78;
+    border-style: solid;
+}
+
+.icon{
+    height: 20px;
+}
+
+.card-main{
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+
+
+
+/*EDUCATION DETAILS*/
+
+.education {
+    border-color: #735d78;
+    border-style: solid;
+}
+
+.edu-header{
+    background-color: #735d78;
+    height: 50px;
+}
+
+.edu-main{
+    padding: 10px;
+}
+
+
+
+/* REQUESTS */
+
+.requests {
+    border-color: #735d78;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+.request-header {
+    background-color: #735d78;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start; /*likely need to change*/
+    align-items: center;
+}
+.request-num {
+    background-color: #e8c2ca;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: black;
+    font-weight: bold;
+}
+.headshot{
+    border-radius: 50%;
+    height: 50px;
+    margin: 10px;
+}
+.accept, .reject{
+    height: 40px;
+    margin: 10px;
+}
+.request-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.request-name {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*CONNECTIONS*/
+.connections {
+    border-color:#735d78;
+    border-style: solid;
+}
+.connect-header{
+    background-color: #735d78;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start; /*likely need to change*/
+    align-items: center; 
+}
+.connect-num {
+    background-color: #e8c2ca;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: black;
+    font-weight: bold;
+}
+
+.connect-row{
+    display: flex;
+    align-items: center;
+}
+.connect-row img{
+    border-radius: 50%;
+    height: 50px;
+    margin: 10px;
+}
+
+.connect-view{
+    /* outline: 3px solid #735d78;
+    box-sizing: border-box; */
+    height: 30px;
+    border-top: 3px solid #735d78;
+    padding-top: 10px;
+    padding-left: 10px;
+}
